@@ -106,6 +106,12 @@ h3 {
   flex-shrink: 1;
 }
 
+.pic {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
 .info-card {
   width: 30%;
   background-color: rgb(255, 255, 255);
@@ -115,7 +121,7 @@ h3 {
 }
 
 .info-card :not(:first-child) {
-  padding: 30px;
+  padding: 0 0px 40px 0px;
 }
 
 .content-d {
